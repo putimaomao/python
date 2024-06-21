@@ -12,11 +12,5 @@ Tools/Depiction/“Pseudobond Reader”, then open the pseudobond.txt file that 
 
 Then Tools/General Control/“Pseudobond Panel”, then select the pseudobond.txt file with a check mark, and highlight it, then click “attributes…” button. This will open a new box, check the “component pseudobond attributes” box, change the “halfbond mode” to ON, this will allow the pseudobonds to be colored based on their corresponding atom color. Also turn the “displayed” option to TRUE (this way you can hide atoms in the future, but keep pseudobonds visible, if this is set to false, or if atoms shown, then when you hide atoms, the pseudobonds will disappear). ** you can also change the appearance of the pseudobonds here, including the thickness of the lines, etc… but do NOT change color, or it will mess up your rainbow by distance setting.
 
-~show
-select #1@C,CA,N,O
-(this is the model # for the final model, not the initial model)
-Then invert selection of selected model, to delete all of atoms EXCEPT for the Cas
-Then select #1@CA 
-Now show atoms!
 
 Now you can change the appearance of those atoms to whatever you want!!!
